@@ -1,0 +1,34 @@
+.conceptoCard {
+    width: 280px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    background-color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.conceptoCard:hover {
+    transform: translateY(-5px);
+}
+
+.imagen {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.titulo {
+    font-size: 1.3rem;
+    margin: 15px 0 10px;
+    color: #0f766e;
+}
+
+.descripcion {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.4;
+}

@@ -1,0 +1,6 @@
+export { Footer } from "./footer"
+export { Header } from "./header"
+export { Layout } from "./layout"
+export { ConceptoCard } from "./concepto-card"
+export { PersonajeCard } from "./personaje-card"
+export { MateriaItem } from "./materia-item"
